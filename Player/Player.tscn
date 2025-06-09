@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://fadvxpvfnr2t"]
+
+[ext_resource type="Script" uid="uid://mpn6y2t15r2l" path="res://Player/Player.gd" id="1_3qydi"]
+[ext_resource type="Texture2D" uid="uid://dhh2jqmxc8q53" path="res://Assets/Characters/wizard_idle.png" id="2_q3lat"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_3qydi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(100, 100)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_q3lat")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="BulletSpawn" type="Marker2D" parent="."]
+
+[node name="ShootCooldown" type="Timer" parent="."]
