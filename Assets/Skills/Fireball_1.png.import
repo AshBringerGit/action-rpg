@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0lerkw5blgwp"
-path="res://.godot/imported/wizard_idle.png-e880e8a4798b214ca1faa9094f506087.ctex"
+uid="uid://c3l4bhsg5uauy"
+path="res://.godot/imported/Fireball_1.png-e13d4bd071f019ac57d8c809a3c22938.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/wizard_idle.png"
-dest_files=["res://.godot/imported/wizard_idle.png-e880e8a4798b214ca1faa9094f506087.ctex"]
+source_file="res://Assets/Skills/Fireball_1.png"
+dest_files=["res://.godot/imported/Fireball_1.png-e13d4bd071f019ac57d8c809a3c22938.ctex"]
 
 [params]
 
